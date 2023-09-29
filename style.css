@@ -6,20 +6,32 @@ h3 {
     padding: 0;
 }
 
+h1 {
+    text-align: center;
+    font-size: 5vw;
+}
+
+
 p {
     color: white;
 }
 
 img {
+    text-align: center;
     border-radius: 75%;
-    width: 10vw;
+    width: 48vw;
+}
+
+a:hover {
+    background-color: black;
+    color: rgb(213, 75, 75);
 }
 
 
 body {
     /* background-color: #252525; */
     background-image: url("redbg.jpeg");
-    background-size: 100vw;
+    background-size: auto;
     color: #FF0000;
     font-family: Arial, sans - serif;
 }
@@ -43,7 +55,6 @@ header p {
     color: white;
 }
 
-
 nav ul {
     list-style: none;
     text-align: center;
@@ -53,10 +64,8 @@ nav ul {
 }
 
 nav li {
-    display:
-        inline;
-    margin:
-        0 20px;
+    display: inline;
+    margin: 0 20px;
 }
 
 nav a {
@@ -120,11 +129,28 @@ section h2 {
 }
 
 .rounded {
-    background-color: #2f2b2bde;
+    background-color: rgba(47, 43, 43, 0.77);
     border-radius: 200px;
     text-align: center;
     margin: 10px;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+}
+
+/* .navimg {
+    size: 10000vw;
+} */
 
 
 footer {
