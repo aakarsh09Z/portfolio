@@ -40,12 +40,13 @@ a:hover {
 }
 
 body {
-    /* background-color: #252525; */
     background-image: url("redbg.jpeg");
     background-size: auto;
     color: #FF0000;
     font-family: Arial, sans - serif;
 }
+
+
 
 
 header {
@@ -181,4 +182,7 @@ footer {
         margin:
             10px 0;
     }
+
+
+
 }
