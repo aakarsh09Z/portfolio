@@ -30,11 +30,14 @@ img {
     width: 48vw;
 }
 
+a:visited {
+    color: white;
+}
+
 a:hover {
     background-color: black;
     color: rgb(213, 75, 75);
 }
-
 
 body {
     /* background-color: #252525; */
