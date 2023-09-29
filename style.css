@@ -20,6 +20,8 @@ h1 {
 
 p {
     color: white;
+    letter-spacing: 0.35px;
+    padding: 20px;
 }
 
 img {
