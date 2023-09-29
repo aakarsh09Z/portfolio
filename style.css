@@ -17,7 +17,9 @@ img {
 
 
 body {
-    background-color: #252525;
+    /* background-color: #252525; */
+    background-image: url("redbg.jpeg");
+    background-size: 100vw;
     color: #FF0000;
     font-family: Arial, sans - serif;
 }
@@ -117,6 +119,13 @@ section h2 {
     font-size: 20px;
 }
 
+.rounded {
+    background-color: #2f2b2bde;
+    border-radius: 200px;
+    text-align: center;
+    margin: 10px;
+}
+
 
 footer {
     text-align: center;
@@ -127,6 +136,15 @@ footer {
         10px 0;
     font-size: 14px;
 }
+
+/* .wave {
+    display: block;
+    position: relative;
+    height: 40px;
+    width: 100%;
+    background: rgb(57, 27, 112);
+    transform: scale(1, 1);
+} */
 
 
 @media(max-width : 768px) {
