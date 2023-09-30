@@ -67,8 +67,6 @@ header p {
     color: white;
 }
 
-nav {}
-
 nav ul {
     list-style: none;
     text-align: center;
@@ -106,17 +104,6 @@ form {
     font-weight: bold;
 }
 
-.skills {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    color: white;
-}
-
-.cpp {
-    width: 90%;
-    background-color: #04AA6D;
-}
 
 .rounded {
     background-color: rgba(47, 43, 43, 0.77);
@@ -134,15 +121,22 @@ form {
     width: 50%;
 }
 
+.form {
+    text-align: center;
+}
+
 .heading {
     text-align: center;
     font-size: 3vw;
     color: white;
 }
 
-.container {
-    width: 100%;
-    background-color: #ddd;
+.email {
+    text-align: center;
+}
+
+.skills {
+    padding-left: 30vw;
 }
 
 footer {
@@ -155,22 +149,18 @@ footer {
     font-size: 14px;
 }
 
-/* .wave {
-    display: block;
-    position: relative;
-    height: 40px;
-    width: 100%;
-    background: rgb(57, 27, 112);
-    transform: scale(1, 1);
-} */
-
-
 @media(width<768px) {
 
     body {
         width: 100%;
         object-fit: cover;
     }
+
+    .skills {
+        padding-left: 20vw;
+    }
+
+
 
     nav ul {
         padding-top: 20px;
@@ -183,6 +173,27 @@ footer {
             10px 0;
     }
 
+}
 
+@media(width<500px) {
 
+    * {
+        padding: 0;
+        margin: 0
+    }
+
+    .skills {
+        padding-left: 20%;
+    }
+
+    .form {
+        padding: 0;
+        margin: 0;
+        text-align: left;
+    }
+
+    .email {
+        padding: 0;
+        text-align: left;
+    }
 }
